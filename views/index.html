@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <meta charset="UFT-8">
+        <meta name="vierport" content="width=device-width, initial-scale=1.0">
+        <title>Registro Estudiantes</title>
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+    <body>
+        <form action="/files/cedula" method="POST" enctype="multipart/form-data">
+            <h1>Subir Cedula</h1>
+            <input type="file" name="cedula" id="">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <br><br>
+        <form action="/files/foto" method="POST" enctype="multipart/form-data">
+            <h1>Subir Foto</h1>
+            <input type="file" name="foto" id="">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <br><br>
+        <a href="alumnos.html"> <input type="submit" style="background: white" value="Registrar Alumnos" /></a>
+    </body>
+</html>
