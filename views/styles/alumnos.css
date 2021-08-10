@@ -1,0 +1,30 @@
+* {
+background-color: beige;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+vertical-align: sub;
+text-align: center;
+}
+
+form{
+    width: 400px;
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+}
+input {
+    font-size: small;
+    margin: 0.5%;
+    border-radius: 5px;
+    border: 1px solid #39c;
+}
+label {
+    background: silver;
+    color: black;
+    margin: 0.5%;
+}
+

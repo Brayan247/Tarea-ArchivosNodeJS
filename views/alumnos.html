@@ -2,8 +2,28 @@
 <html>
     <head>
         <title>Alumnos</title>
+        <meta charset="UFT-8">
+        <meta name="vierport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/alumnos.css">
     </head>
     <body>
-        <h1>Has accedido correctamente</h1>
-    </body>
+        <div class="card">
+            <div class="card-header text-center">
+                Registro de Estudiantes
+            </div>
+            <div class="card-body">
+                <form class="card-body">
+                    <label for="cedula">Cedula de Identidad:</label><br>
+                    <input type="text" id="cedula" name="cedula" placeholder="Cedula de identidad" maxlength="10"><br>
+                    <label for="names">Nombres:</label><br>
+                    <input type="text" id="names" name="names" placeholder="Nombres"><br>
+                    <label for="surnames">Apellidos:</label><br>
+                    <input type="text" id="surnames" name="surnames" placeholder="Apellidos"><br>
+                    <label for="carrer">Carrera:</label><br>
+                    <input type="text" id="carrer" name="carrer" placeholder="Carrera"><br>
+                    <label for="semester">Semestre:</label><br>
+                    <input type="text" id="semester" name="semester" placeholder="Semestre"><br>
+                    </form>
+            </div>
+        </div>
 </html>

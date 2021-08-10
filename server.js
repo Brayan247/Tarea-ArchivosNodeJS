@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const Students = require('./api/students');
 const multer = require('multer');
 const mimeTypes = require('mime-types');
+const { application } = require('express');
 const app = express();
 
 app.use(express.static('views'));
@@ -30,7 +31,7 @@ app.get("/", (req, res) => {
 const storageCedula = multer.diskStorage({
     destination: 'uploads/uploads-cedula',
     filename: function(req, file, cb){
-        mimeTypes.contentType = app;
+        mimeTypes.contentType = application("pdf");
         cb("", Date.now() + "." + mimeTypes.extension(file.mimetype));
     }
 })
